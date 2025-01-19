@@ -8,8 +8,8 @@ body
     background-color: #F1F1F3;
 }
 body>*{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 50px;
     
 }
@@ -160,3 +160,56 @@ body>nav>button{
     padding: 30px;
     background-position-x: 30px;
 }
+/* opinion box   */
+#opinion-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#opinion-title{
+    font-weight: bold;
+    align-self: flex-start;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+#table-holder{
+   border: 24px solid white;
+   border-radius: 16px;
+}
+thead {
+    background-color: #C6E4D6;
+    text-align: left;
+    border: 1px solid rgb(212,202,202); 
+    box-sizing: border-box;
+}
+.row-title{
+    padding: 24px;
+}
+tbody{
+    padding: 24px;
+    box-sizing: border-box;
+}
+td{
+    padding: 24px;
+    border: 1px solid rgb(212, 202, 202);   
+}
+td > select{
+    background-color: #C6E4D6;
+    padding: 14px;
+    border-radius: 4px;
+    font-family: Fira sans,sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+/* news section  */
+
+
+
+
