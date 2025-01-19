@@ -184,6 +184,9 @@ body>nav>button {
     padding: 30px;
     background-position-x: 30px;
 }
+#yunus{
+    text-align: left;
+}
 
 /* opinion box   */
 #opinion-box {
@@ -322,3 +325,61 @@ td>select {
     padding: 17px;
     border: none;
 }
+
+/* newsletter section   */
+#newsletter{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#take-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+}
+#take-email > button{
+    padding: 17px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    color: white;
+}
+#take-email > input {
+    padding: 17px;
+    width: 400px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px;
+}
+footer > p {
+    font-size: 32px;
+    font-weight: bold;
+}
+footer > hr {
+    width: 500px;
+    background-color: #006A50;
+}
+#footer-icon-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
